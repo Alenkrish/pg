@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "prepare": "test \"$CI\" = \"true\" || husky install",
-    "lint:commits": "commitlint --from=HEAD~1"
+    "lint:commits": "commitlint --from=HEAD~1",
+    "build": "echo 'No build step required'"
   },
   "keywords": [],
   "author": "",
