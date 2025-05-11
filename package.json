@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "prepare": "husky install",
+    "prepare": "test \"$CI\" = \"true\" || husky install",
     "lint:commits": "commitlint --from=HEAD~1"
   },
   "keywords": [],
